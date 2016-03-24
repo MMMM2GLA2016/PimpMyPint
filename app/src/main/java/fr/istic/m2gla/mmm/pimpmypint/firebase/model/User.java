@@ -9,6 +9,7 @@ public class User {
 
     private String name;
     private List<User> contacts;
+    private List<Review> reviews;
 
     public User() {}
 
