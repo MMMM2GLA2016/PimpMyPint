@@ -1,5 +1,6 @@
 package fr.istic.m2gla.mmm.pimpmypint;
 
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
@@ -16,9 +17,7 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
-import fr.istic.m2gla.mmm.pimpmypint.R;
-
-public class DashboardActivity extends AppCompatActivity {
+public class DashboardActivity extends FragmentActivity {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -41,7 +40,7 @@ public class DashboardActivity extends AppCompatActivity {
         setContentView(R.layout.activity_dashboard);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+       // setSupportActionBar(toolbar);
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
