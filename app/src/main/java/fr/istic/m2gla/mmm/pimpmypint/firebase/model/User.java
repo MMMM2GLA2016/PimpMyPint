@@ -8,8 +8,8 @@ import java.util.List;
 public class User {
 
     private String name;
-    private List<User> contacts;
-    private List<Review> reviews;
+    private List<String> contacts;
+    private List<String> reviews;
 
     public User() {}
 
@@ -21,7 +21,19 @@ public class User {
         return name;
     }
 
-    public List<User> getContacts() {
+    public List<String> getContacts() {
         return contacts;
+    }
+
+    public List<String> getReviews() {
+        return reviews;
+    }
+
+    public void addContatc(String userId){
+        reviews.add(userId);
+    }
+
+    public void addReviews(String reviewId){
+        reviews.add(reviewId);
     }
 }

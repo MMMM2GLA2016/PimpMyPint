@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void setAuthenticatedUser(AuthData authData) {
         if (authData != null) {
-            Intent intent = new Intent(this, TestActivity.class);
+            Intent intent = new Intent(this, ProfilActivity.class);
             intent.putExtra("email", authData.getProviderData().get("email").toString())
                     .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK
                             | Intent.FLAG_ACTIVITY_CLEAR_TOP

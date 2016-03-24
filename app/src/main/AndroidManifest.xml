@@ -12,27 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".LoginActivity">
-
-        </activity>
-
-        <activity
-            android:name=".DashBoardBis"
-            android:label="@string/title_activity_dashboard"
-            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity
             android:name=".SignUpActivity"
             android:label="@string/title_activity_sign_up"
             android:theme="@style/AppTheme" />
-
-        <activity android:name=".TestActivity" />
+        <activity android:name=".ProfilActivity" />
+        <activity android:name=".MyContactActivity" />
+        <activity android:name=".MyBeersActivity"></activity>
     </application>
 
 </manifest>
