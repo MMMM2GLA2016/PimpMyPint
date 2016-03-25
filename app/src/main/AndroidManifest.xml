@@ -32,10 +32,9 @@
             android:name=".BeerListContentProvider"
             android:authorities="beerlistcontentprovider"
             android:label="Some beer" />
-            
         <activity android:name=".ProfilActivity" />
         <activity android:name=".MyContactActivity" />
-        <activity android:name=".MyBeersActivity">
+        <activity android:name=".MyBeersActivity"/>
     </application>
 
 </manifest>
