@@ -30,6 +30,14 @@
             android:theme="@style/AppTheme" />
 
         <activity android:name=".TestActivity" />
+
+        <activity android:name=".SearchBeerActivity" />
+
+
+        <provider
+            android:name=".BeerListContentProvider"
+            android:authorities="beerlistcontentprovider"
+            android:label="Some beer" />
     </application>
 
 </manifest>
