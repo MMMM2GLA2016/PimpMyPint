@@ -2,5 +2,6 @@
 <resources>
     <string name="firebase_url">https://pimpmypint.firebaseio.com</string>
     <string name="node_users">Users</string>
+    <string name="node_reviews">Reviews</string>
     <string name="node_beers">Beers</string>
 </resources>
